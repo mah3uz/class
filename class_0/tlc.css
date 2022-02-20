@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 3000px
+}
+.top-menu {
+    height: 40px;
+    width: 100%;
+    background-color: #353535;
+}
+.left {
+    width: 70%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.right {
+    width: 20%;
+    float: right;
+    text-align: right;
+    margin-right: 25px;
+}
+.left p, .left span {
+    color: white;
+    display: inline;
+    margin: 5px 10px;
+}
+.other-button {
+    padding: 5px 15px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(255, 0, 149);
+}
+.content {
+    background: #adadad;
+    padding: 50px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    width: 500px;
+}
+.one {
+    height: 100px;
+    width: 300px;
+    background: #ef5467;
+}
+.two {
+    height: 100px;
+    width: 300px;
+    background: violet;
+    /* display: none; */
+}
+.three {
+    height: 100px;
+    width: 300px;
+    background: #12fe23;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+}
+.four {
+    height: 100px;
+    width: 300px;
+    background: #909090;
+}
