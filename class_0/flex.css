@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+}
+.container {
+    display: flex;
+    border: 3px solid #FFC93F;
+}
+.item {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 200px;
+}
+.home {
+}
+.search {
+    flex: 1;
+}
+.logout {
+}
+
+@media all and (max-width: 650px) {
+    .item {
+        flex: 1;
+    }
+    .container {
+        flex-wrap: wrap;
+    }
+    .search {
+        order: 1;
+    }
+}
